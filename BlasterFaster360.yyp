@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "9abd93ff-804d-43a8-99e5-5b034173bd88",
+            "Value": {
+                "id": "45d08951-be80-4ecd-bf5d-0ab20a84a808",
+                "resourcePath": "objects\\o_enemie_laser\\o_enemie_laser.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9f83fe53-d852-458a-a86a-5d72e28a16e0",
             "Value": {
                 "id": "f2629ac9-10f4-4260-9b20-ba9d36d406b0",
