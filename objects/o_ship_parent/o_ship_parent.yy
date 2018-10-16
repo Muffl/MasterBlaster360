@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 1,
             "m_owner": "4c5baf0f-289d-4a08-b353-a82dd19ca873"
+        },
+        {
+            "id": "6444dfa1-50c7-4dd8-b1d9-0492753dd465",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "4c5baf0f-289d-4a08-b353-a82dd19ca873",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "4c5baf0f-289d-4a08-b353-a82dd19ca873"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -69,6 +79,34 @@
             "value": "1",
             "varName": "armor",
             "varType": 1
+        },
+        {
+            "id": "726529cb-9db2-4133-94ba-112ed049c7d5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.1",
+            "varName": "acceleration",
+            "varType": 0
+        },
+        {
+            "id": "b4219b8b-212b-4c90-b287-15f4e8a9cd11",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "max_speed",
+            "varType": 0
         }
     ],
     "solid": false,

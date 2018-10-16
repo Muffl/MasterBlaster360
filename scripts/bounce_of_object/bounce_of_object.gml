@@ -8,7 +8,7 @@ var object = argument0;
 var acceleration = argument1;
 var max_speed = argument2;
 
-// Ende der Fusszeilenanzeige
+if (not instance_exists(object)) exit;
 
 
 var bounce_direction = point_direction(object.x,object.y,x,y);

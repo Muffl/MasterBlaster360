@@ -18,6 +18,9 @@ if (thrust)
 	{
 		speed = max_speed;
 	}
+	
+	repeat (4)
+	{
 	// o_explosion_particle an die richtige position des Raumsschiffes setzen
 	
 	var offset = random_range(-4,4);
@@ -27,7 +30,7 @@ if (thrust)
 	var _y = y + lengthdir_y(lenght, image_angle) + offset;
 	
 	instance_create_layer(_x,_y,"Effects",o_explosion_particle);
-	
+	}
 
 }
 else
