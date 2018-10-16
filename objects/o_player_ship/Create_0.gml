@@ -1,0 +1,1 @@
+image_speed = 0; //Standardimage wenn keine Maustaste gedrückt

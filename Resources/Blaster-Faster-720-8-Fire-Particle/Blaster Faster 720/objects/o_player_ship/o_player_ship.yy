@@ -1,0 +1,91 @@
+{
+    "id": "cf9bfbff-dbb2-4816-8e30-d932ae6342e9",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "o_player_ship",
+    "eventList": [
+        {
+            "id": "887eb3dc-e470-491b-81db-bd0b97eac250",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "cf9bfbff-dbb2-4816-8e30-d932ae6342e9"
+        },
+        {
+            "id": "a177d10b-86e2-407f-a423-0d79898826d3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "cf9bfbff-dbb2-4816-8e30-d932ae6342e9"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "450066f1-88ae-4131-8aab-787f754b1b2f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "max_speed",
+            "varType": 1
+        },
+        {
+            "id": "7a4fff3e-c1cb-4b32-b545-4bed951e0ca8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.2",
+            "varName": "acceleration",
+            "varType": 0
+        },
+        {
+            "id": "f3004c06-d6d8-4802-90ae-4c38cf551f2a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.05",
+            "varName": "friction_amount",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "8afaed5a-c158-4869-9ab6-7f4fb999e48e",
+    "visible": true
+}
