@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_enemy_ship_two",
     "eventList": [
-        
+        {
+            "id": "517403f1-477c-404a-95d0-4be663315c61",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "98b883ac-e410-4a54-992b-4fdef4e36db1"
+        },
+        {
+            "id": "f73230e5-617e-4f91-b847-e797bc059e8a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "98b883ac-e410-4a54-992b-4fdef4e36db1"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -47,7 +66,36 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "3e8d06ff-8f62-42aa-9aef-a00ecab2708d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "320",
+            "varName": "atatck_range",
+            "varType": 1
+        },
+        {
+            "id": "7ad2e058-d929-47f7-a9b2-6056c2e7b735",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "60",
+            "varName": "fire_rate",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "874a52de-12e2-4f20-9cba-2c48cbdc999a",
     "visible": true
