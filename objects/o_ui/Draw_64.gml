@@ -24,7 +24,7 @@ var score_y = 8;
 draw_sprite(s_score,0, score_x, score_y);
 
 //Fügt den Text in das Feld ein und bestimmt die Position
-draw_text(score_x + score_sprite_width - 3 ,score_y,"45");
+draw_text(score_x + score_sprite_width - 3 ,score_y,score);
 
 draw_set_halign(fa_left);
 #endregion
