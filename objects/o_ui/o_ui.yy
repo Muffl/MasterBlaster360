@@ -54,7 +54,7 @@
             "resourceFilter": 1023,
             "value": "8",
             "varName": "armor_x",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "e7a729c6-9926-48ad-be39-da5767e5d2b9",
@@ -68,7 +68,7 @@
             "resourceFilter": 1023,
             "value": "8",
             "varName": "armor_y",
-            "varType": 0
+            "varType": 1
         }
     ],
     "solid": false,
