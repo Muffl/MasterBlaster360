@@ -67,20 +67,6 @@
             "varType": 1
         },
         {
-            "id": "726529cb-9db2-4133-94ba-112ed049c7d5",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0.1",
-            "varName": "acceleration",
-            "varType": 0
-        },
-        {
             "id": "b4219b8b-212b-4c90-b287-15f4e8a9cd11",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -92,6 +78,20 @@
             "resourceFilter": 1023,
             "value": "1",
             "varName": "max_speed",
+            "varType": 0
+        },
+        {
+            "id": "726529cb-9db2-4133-94ba-112ed049c7d5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.1",
+            "varName": "acceleration",
             "varType": 0
         }
     ],
