@@ -1,1 +1,6 @@
-room_goto(r_menu)
+
+score = 0;
+
+room_goto(r_menu);
+
+

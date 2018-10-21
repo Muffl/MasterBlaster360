@@ -1,3 +1,6 @@
+
+if (room == r_space)
+{
 #region Zeichne Player Lebenspunktebalken
 
 var player_ship = instance_find(o_player_ship,0)
@@ -28,3 +31,18 @@ draw_text(score_x + score_sprite_width - 3 ,score_y,score);
 
 draw_set_halign(fa_left);
 #endregion
+}
+else
+{
+	#region Draw the highscore
+	
+	var _score_x = room_width - 8;
+	var _score_y =30;
+	
+	draw_set_halign(fa_right);
+
+	draw_text(_score_x - 3 ,_score_y + 1, "Highscore: " + string(global.highscore));
+	draw_set_halign(fa_left);
+	
+	#endregion
+}

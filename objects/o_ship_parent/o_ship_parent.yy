@@ -93,6 +93,20 @@
             "value": "0.1",
             "varName": "acceleration",
             "varType": 0
+        },
+        {
+            "id": "96720f07-c523-4ff4-a5da-d60a780d46bd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "max_armor",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited(); //Das kapier ich nicht
 
-instance_create_layer(x,y,"Instances",o_timer);
+instance_create_layer(x,y,"Instances",o_death_timer);
