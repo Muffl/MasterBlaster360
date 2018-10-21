@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "21cad263-3311-40f8-ac4f-d812ba568917",
+            "Value": {
+                "id": "ae056f5c-caa4-4750-8ba0-468d3374988d",
+                "resourcePath": "objects\\o_button\\o_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "234607a8-0f15-403b-bc07-4076d28f51c8",
             "Value": {
                 "id": "2a930980-ad17-45a2-9433-dce7bd105c6c",
@@ -108,6 +116,14 @@
                 "id": "968ac515-baae-46d8-abcf-2ae9532f6d9d",
                 "resourcePath": "objects\\o_laser\\o_laser.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "38aa5025-063e-4470-9de4-eefb1a9bdbe9",
+            "Value": {
+                "id": "f1b14225-6415-497c-80fb-5a489b789786",
+                "resourcePath": "scripts\\start_button\\start_button.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -212,6 +228,14 @@
                 "id": "69de7d2a-7ae4-45ed-b773-e9f30ec30169",
                 "resourcePath": "views\\66cd6214-b54f-4ccd-9437-713e09c2f477.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6895221c-c488-4b40-96b1-23ef520079d5",
+            "Value": {
+                "id": "cdd69296-18b2-482e-99a3-430ed24d3ac4",
+                "resourcePath": "rooms\\r_menu\\r_menu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -527,6 +551,14 @@
             }
         },
         {
+            "Key": "f022c4ad-0689-4aac-8e77-4d0290edd295",
+            "Value": {
+                "id": "89ff90cc-52f8-4bee-97ee-21b8319cb6a3",
+                "resourcePath": "scripts\\ende_button\\ende_button.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "0a40cacf-07a1-44f0-9437-01a635357fed",
@@ -554,7 +586,9 @@
         "c225a575-32af-48cc-bcae-c01d2cf6b6e7",
         "df654e96-7b7c-4100-8fcb-f9ae26aa6af4",
         "3d767ee3-71fd-40ae-87e5-37d0bb45998c",
-        "ca820cec-8bf1-4c46-b0eb-88000af8b877"
+        "ca820cec-8bf1-4c46-b0eb-88000af8b877",
+        "38aa5025-063e-4470-9de4-eefb1a9bdbe9",
+        "f022c4ad-0689-4aac-8e77-4d0290edd295"
     ],
     "tutorial": ""
 }
