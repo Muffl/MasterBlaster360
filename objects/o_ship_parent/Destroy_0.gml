@@ -6,5 +6,8 @@ if (object_index != o_player_ship)
 	if (score > global.highscore)
 	{
 		global.highscore = score;
+		ini_open("Save.ini");
+		ini_write_real("Score","Highscore",global.highscore);
+		ini_close();
 	}
 }
