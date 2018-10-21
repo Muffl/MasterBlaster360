@@ -15,3 +15,5 @@ if( other.armor <= 0)
 {
 	score += score_amount;
 }
+
+audio_play_sound(a_hit, 2, false);
