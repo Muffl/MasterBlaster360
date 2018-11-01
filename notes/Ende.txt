@@ -7,6 +7,9 @@ Wenn Maus auf Spieler. Spieler fängt an zu tanzen. Sollte nicht sein.
 
 Beschreibung des Spieles beim Start.
 
+Musik aus Button
+
+(c) Hinweis
 
 .....
 
