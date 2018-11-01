@@ -45,4 +45,15 @@ else
 	draw_set_halign(fa_left);
 	
 	#endregion
+	
+	#region Draw copyright
+	
+	var __score_y = room_height - 30;
+	
+	draw_set_halign(fa_right);
+	
+	draw_text(_score_x - 3 ,__score_y + 1, "(c) by Thorsten 2018");
+	draw_set_halign(fa_left);
+	
+	#endregion
 }

@@ -9,7 +9,7 @@ Beschreibung des Spieles beim Start.
 
 Musik aus Button
 
-(c) Hinweis
+(c) Hinweis - erledigt 01.11.2018 
 
 .....
 
